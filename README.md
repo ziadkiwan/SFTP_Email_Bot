@@ -17,6 +17,7 @@ in the mail-recieve.py:
   you need to add the email that the bot should listen too at the top of the script you change the variables below:
   
   youremail = "EMAILHERE"
+  
   yourpassword = "PASSWORDHERE"
   
   if you want to change the keyword change the variable below:
@@ -26,12 +27,15 @@ in the mail-recieve.py:
 in the sendemail.py:
 
   you need to add the email that the bot should send notifications from at the top of the script you change the variables below:
+  
   youremail = "EMAILHERE"
+  
   yourpassword = "PASSWORDHERE"
   
 in dbconnector.py:
 
   you should edit the connection strings specify your server address and the username and password.
+  
      return MySQLdb.connect(host="localhost",    # your host, usually localhost
                          user="root",         # your username
                          passwd="password",  # your password
