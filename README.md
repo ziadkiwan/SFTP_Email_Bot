@@ -15,16 +15,15 @@ Configuration Steps:
 in the mail-recieve.py:
 
   you need to add the email that the bot should listen too at the top of the script you change the variables below:
-    youremail = "EMAILHERE"
-
-    yourpassword = "PASSWORDHERE"
+    <code> youremail = "EMAILHERE"<br>
+    yourpassword = "PASSWORDHERE" </code>
   
   if you want to change the keyword change the variable below:
     keyword = "DATA"
   
 in the sendemail.py:
   you need to add the email that the bot should send notifications from at the top of the script you change the variables below:
-   <code> youremail = "EMAILHERE"
+   <code> youremail = "EMAILHERE"<br>
     yourpassword = "PASSWORDHERE" </code>
   
 in dbconnector.py:
