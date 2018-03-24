@@ -36,6 +36,8 @@ in dbconnector.py:
                          user="root",         # your username
                          passwd="password",  # your password
                          db="sftp") 
+                        
 use the createdatabase.db script to create the server db.
 to launch the bot:
+
   python mail-receive.py
