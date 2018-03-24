@@ -11,15 +11,12 @@ the server uses mysqldb to store the opened sessions, requested sessions.<br />
 Python 2.7 is used.<br />
 
 <h4>Configuration Steps:</h4>
-
 <h5>mail-recieve.py:</h5><br />
   you need to add the email that the bot should listen too at the top of the script you change the variables below:<br />
     <code> youremail = "EMAILHERE"
-    yourpassword = "PASSWORDHERE" </code>
-  
+    yourpassword = "PASSWORDHERE" </code> <br />
   if you want to change the keyword change the variable below:<br />
-    <code> keyword = "DATA"</code>
-  
+    <code> keyword = "DATA"</code><br />
 <h5>sendemail.py</h5>:
   you need to add the email that the bot should send notifications from at the top of the script you change the variables below:<br />
    <code> youremail = "EMAILHERE"<br />
