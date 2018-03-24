@@ -3,14 +3,14 @@ A bot that opens an SFTP request and generate a unique username and password for
 
 To trigger the bot you need to send an email to the email you specify in the script containing a keyword by default its "DATA" the bot will generate a unique username and password and email back them to you, the server will give a one hour session and closes the connection back, if another request is sent while the server have an opened session, the server will notify the sender that it's busy and then automatically opens a sftp session for him after its done.
 
-Required Libraries:
+<h3>Required Libraries:
 smtplib
 paramico
 
 the server uses mysqldb to store the opened sessions, requested sessions.
 Python 2.7 is used.
 
-Configuration Steps:
+<h3>Configuration Steps:
 
 in the mail-recieve.py:
 
@@ -35,6 +35,5 @@ in dbconnector.py:
                          db="sftp") 
                         
 use the createdatabase.db script to create the server db.
-to launch the bot:
-
-  python mail-receive.py
+<h3>launch the bot:
+  <code>python mail-receive.py</code>
