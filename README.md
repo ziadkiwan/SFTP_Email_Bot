@@ -14,7 +14,7 @@ Python 2.7 is used.<br />
 <h5>mail-recieve.py:</h5>
   you need to add the email that the bot should listen too at the top of the script you change the variables below:<br />
     <code> youremail = "EMAILHERE"</code> <br />
-    <code>yourpassword = "PASSWORDHERE" </code>
+    <code>yourpassword = "PASSWORDHERE" </code><br />
   if you want to change the keyword change the variable below:<br />
     <code> keyword = "DATA"</code><br />
 <h5>sendemail.py:</h5>
