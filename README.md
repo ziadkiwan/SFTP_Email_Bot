@@ -29,7 +29,7 @@ Python 2.7 is used.<br />
                          user="root",         # your username
                          passwd="password",  # your password
                          db="sftp") 
-                        
-use the createdatabase.db script to create the server db.
+<h5>Mysql DB Configuration</h5>               
+<b>createdatabase.db</b> will create the DB.
 <h4>launch the bot:</h4>
   <code>python mail-receive.py</code>
