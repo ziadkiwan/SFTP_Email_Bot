@@ -3,7 +3,7 @@ A bot that manage an SFTP server connections by email commands.
 
 To trigger the bot you need to send an email to the email you specify in the script containing a keyword by default its "DATA" the bot will generate a unique username and password and email back them to you, the server default session time is 1 hour after it expires it will close the connection,if another request is sent while the server have an opened session, the server will notify the sender that it's busy when the server is done from the first session it will automatically opens up a session for the second one.
 
-<h4>Required Libraries:</h4><br />
+<h4>Required Libraries:</h4>
 smtplib<br />
 paramico<br />
 
